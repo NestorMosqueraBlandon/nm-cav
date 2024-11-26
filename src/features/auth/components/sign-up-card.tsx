@@ -74,7 +74,7 @@ export const SignUpCard = () => {
             disabled={mutation.isPending}
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Full name"
+            placeholder="Nombre completo"
             type="text"
             required
           />
@@ -82,7 +82,7 @@ export const SignUpCard = () => {
             disabled={mutation.isPending}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Email"
+            placeholder="Correo"
             type="email"
             required
           />
@@ -90,7 +90,7 @@ export const SignUpCard = () => {
             disabled={mutation.isPending}
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            placeholder="Password"
+            placeholder="Contraseña"
             type="password"
             required
             minLength={3}
@@ -102,7 +102,7 @@ export const SignUpCard = () => {
             className="w-full" 
             size="lg"
           >
-            Continue
+            Continuar
           </Button>
         </form>
         <Separator />
@@ -129,7 +129,7 @@ export const SignUpCard = () => {
           </Button> */}
         </div>
         <p className="text-xs text-muted-foreground">
-          Already have an account? <Link href="/sign-in"><span className="text-sky-700 hover:underline">Sign in</span></Link>
+          Ya tiene una cuenta? <Link href="/sign-in"><span className="text-sky-700 hover:underline">Iniciar sesión</span></Link>
         </p>
       </CardContent>
     </Card>
